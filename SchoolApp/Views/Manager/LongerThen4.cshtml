@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "LongerThen4";
+}
+
+<h2>
+    @foreach (string lName in ViewBag.arrayOfLName)
+    {
+        if (lName.Length > 4)
+        {
+            <p>@lName </p>
+
+        }
+    }
+</h2>
+
